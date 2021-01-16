@@ -1,0 +1,13 @@
+## Interface: 11306
+## Version: 1
+## Title: |cFF323232RR|r|cFF7F7F7FInc|r |cFF612081Data|r
+## Notes: Addon for RR Inc on EU-ZandalarTribe. By |cFF6600CCPug|r.
+## Author: |cFF6600CCPug|r
+## DefaultState: enabled
+## SavedVariables: RRIncData_LootTimestamp, RRIncData_Loot, RRIncData_SyncTimestamp
+
+Libraries\Load_Libraries.xml
+
+LOOT.lua
+RRIncData.lua
+RRIncData_Options.lua
