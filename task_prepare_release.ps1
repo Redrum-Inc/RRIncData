@@ -3,6 +3,9 @@ $addonName = "RRIncData"
 New-Item -ItemType Directory -Force -Path .\$addonName\
 Copy-Item .\$addonName.lua -Destination .\$addonName\ 
 Copy-Item .\$addonName.toc -Destination .\$addonName\ 
+Copy-Item .\RRIncData_Options.lua -Destination .\$addonName\ 
+Copy-Item .\LOOT.lua -Destination .\$addonName\ 
+Copy-Item .\Libraries -Recurse -Destination .\$addonName\ 
 
 $version = ""
 
